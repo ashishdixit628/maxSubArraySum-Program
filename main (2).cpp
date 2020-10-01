@@ -13,7 +13,7 @@ void showstack(stack <int> s)
   
 int main () 
 { 
-    stack <int> v; 
+    stack <int> s; 
     s.push(10)
     s.push(30); 
     s.push(20); 
@@ -21,7 +21,7 @@ int main ()
     s.push(1); 
   
     cout << "The stack is : "; 
-    showstack(s) 
+    showstack(s); 
   
     cout << "\ns.size() : " << s.size(); 
     cout << "\ns.top() : " << s.top(); 
