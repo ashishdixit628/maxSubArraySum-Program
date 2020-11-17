@@ -8,7 +8,7 @@ void maxSubArraySum(int arr[], int size)
     
     for(int i=0; i<size;i++)
     {
-        max_ending_here+=arr[i]
+        max_ending_here+=arr[i];
         
         if(max_so_far < max_ending_here)
         max_so_far=max_ending_here;
@@ -16,7 +16,7 @@ void maxSubArraySum(int arr[], int size)
         if(max_ending_here<0)
         max_ending_here=0;
     }
-    return max_so_far
+    return max_so_far;
 }
 
 int main()
